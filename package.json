@@ -1,0 +1,22 @@
+{
+	"name": "play-hono",
+	"version": "1.0.0",
+	"scripts": {
+		"lint": "pnpm biome check .",
+		"type-check": "pnpm -r type-check",
+		"spell-check": "cspell '**/*' --cache --gitignore",
+		"check": "pnpm run '/(lint|spell-check|type-check)/'",
+		"prepare": "husky"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.0",
+		"cspell": "^8.13.0",
+		"husky": "^9.1.5",
+		"typescript": "^5.5.4"
+	},
+	"engines": {
+		"node": "^22.x.x",
+		"pnpm": "^9.x.x"
+	}
+}
