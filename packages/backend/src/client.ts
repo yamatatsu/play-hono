@@ -10,8 +10,8 @@ client.users
 		json.map;
 	});
 
-client.users[":id"]
-	.$get({ param: { id: "123" } })
+client.users[":sub"]
+	.$get({ param: { sub: "123e4567-e89b-12d3-a456-426614174000" } })
 	.then((res) => res.json())
 	.then((json) => {
 		json.id;
