@@ -18,6 +18,7 @@
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
+		"@quramy/prisma-fabbrica": "^2.2.1",
 		"@types/node": "^22.5.5",
 		"tsx": "^4.7.1",
 		"vitest": "^2.1.1"

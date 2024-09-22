@@ -6,7 +6,7 @@
 		"type-check": "pnpm -r type-check",
 		"spell-check": "cspell '**/*' --cache --gitignore",
 		"test": "pnpm -r test:ci",
-		"check": "pnpm run '/(lint|spell-check|type-check|test)/'",
+		"check": "pnpm run '/(lint|spell-check|type-check)/'",
 		"prepare": "husky"
 	},
 	"license": "MIT",

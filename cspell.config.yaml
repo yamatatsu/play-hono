@@ -7,10 +7,12 @@ words:
   - autoincrement
   - biomejs
   - datasource
+  - fabbrica
   - healthcheck
   - hono
   - mydb
   - mysqladmin
   - openapi
+  - quramy
 ignoreWords: []
 import: []
